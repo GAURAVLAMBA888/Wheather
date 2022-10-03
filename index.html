@@ -15,22 +15,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
             rel="stylesheet"
         />
         <title>Wheather</title>
     </head>
     <body>
-        <div>
-            <input type="text" />
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <div>
-                <h2>Wheather in Denver</h2>
-                <div>51°C</div>
-                <img src="" height="" width="" />
-                <div>Cloudy</div>
-                <div>Humdidity : 63%</div>
-                <div>Wind Speed : 21 km/h</div>
+        <div class="container">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search"/>
+                <button><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+            </div>
+            <div class="weather">
+                <h3 class="city">Weather in Denver</h2><br>
+                <h1 class="temp">51°C</h1>
+                <img src="" height="" width="" class="icon" />
+                <div class="desc">Cloudy</div>
+                <div class="humidity">Humidity : 63%</div>
+                <div class="wind-speed">Wind Speed : 21 km/h</div>
             </div>
         </div>
     </body>
